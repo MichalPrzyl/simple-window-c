@@ -51,7 +51,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     hwnd = CreateWindowEx(
         WS_EX_CLIENTEDGE,
         g_szClassName,
-        "MP TESTING - JEDZIEMY Z KURWAMI",
+        "TESTING WINDOW- MP",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT, CW_USEDEFAULT, 540, 520,
         NULL, NULL, hInstance, NULL);
